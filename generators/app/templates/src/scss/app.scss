@@ -1,0 +1,25 @@
+@import 'variables';
+@import 'mixins';
+@import 'font';
+@import 'base';
+
+body {
+    font-size: 14px;
+    font-family: Roboto, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    i {
+        margin-right: 10px;
+    }
+    font-weight: $font-bold;
+    font-size: 28px;
+
+    small {
+        display: block;
+        color: $m-blue;
+        font-size: 14px;
+        font-weight: $font-normal;
+        margin-left: 35px;
+    }
+}

@@ -1,0 +1,58 @@
+@mixin center-vertically()
+{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*
+ * Font Face
+ */
+@mixin font-face($family, $name, $weight, $style)
+{
+    @font-face{
+        font-family: $family;
+        src: url('#{$font-path}/#{$name}.woff') format('woff');
+        font-weight: $weight;
+        font-style: $style;
+    }
+}
+
+
+/*
+ * CSS Transform - Scale and Rotate
+ */
+@mixin scale-rotate($scale, $rotate: 0)
+{
+    -webkit-transform: scale($scale) rotate($rotate);
+    -ms-transform: scale($scale) rotate($rotate);
+    -o-transform: scale($scale) rotate($rotate);
+    transform: scale($scale) rotate($rotate);
+}
+
+
+/*
+ * Background Image Cover
+ */
+@mixin bg-cover($image)
+{
+    background-image: url($image);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+@mixin bg-cover-inline()
+{
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+

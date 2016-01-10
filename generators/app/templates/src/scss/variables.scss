@@ -1,0 +1,74 @@
+/*
+ * Font Icon Family
+ */
+
+$font-path:            '../fonts/';
+$font-light:                300;
+$font-normal:               400;
+$font-medium:               500;
+$font-bold:                 700;
+
+/*
+ * Material Colors
+ */
+$m-white:                  #fff;
+$m-black:                  #000000;
+$m-blue:                   #2196F3;
+$m-red:                    #F44336;
+$m-purple:                 #9C27B0;
+$m-deeppurple:             #673AB7;
+$m-lightblue:              #03A9F4;
+$m-cyan:                   #00BCD4;
+$m-teal:                   #009688;
+$m-green:                  #4CAF50;
+$m-lightgreen:             #8BC34A;
+$m-lime:                   #CDDC39;
+$m-yellow:                 #FFEB3B;
+$m-amber:                  #FFC107;
+$m-orange:                 #FF9800;
+$m-deeporange:             #FF5722;
+$m-gray:                   #9E9E9E;
+$m-bluegray:               #607D8B;
+$m-indigo:                 #3F51B5;
+$m-pink:                   #E91E63;
+$m-brown:                  #795548;
+
+
+/* Bootstrap Branding */
+$brand-primary:             $m-blue;
+$brand-success:             $m-green;
+$brand-info:                $m-cyan;
+$brand-warning:             $m-orange;
+$brand-danger:              $m-red;
+
+
+/*
+ * Colors
+ */
+$gray-lightest:            #f9f9f9;
+$gray-lighter:             #e9e9e9;
+$gray-light:               #c8c8c8;
+$gray:                     #a2a2a2;
+$gray-dark:                #7e7e7e;
+$gray-darker:              #5e5e5e;
+$gray-darkest:             #444;
+
+/*
+ * Grid System
+ */
+$container-tablet:                      100%;
+$container-desktop:                     100%;
+
+
+/* Typography + Scaffolding + Links */
+$body-bg:                   $gray-lightest;
+$text-color:                $gray-dark;
+$font-family-sans-serif:    roboto;
+$font-size-base:            13px;
+$link-hover-decoration:     none;
+$headings-color:			$m-black;
+
+/* Border Radius */
+$border-radius-base:        2px;
+$border-radius-large:       4px;
+$border-radius-small:       2px;

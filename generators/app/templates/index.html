@@ -1,0 +1,39 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title><%= name %></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="<%= name %>">
+
+    <link rel="stylesheet" href="app.css?v=1.0">
+
+    <!--[if lt IE 10]>
+        <script>
+            var browser		= navigator.appName
+            var ver			= navigator.appVersion
+            var thestart	= parseFloat(ver.indexOf("MSIE"))+1;
+            var brow_ver	= parseFloat(ver.substring(thestart+4,thestart+7));
+
+            if ((browser=="Microsoft Internet Explorer") && (brow_ver < 6))
+            {
+                window.location="http://www.example.com/oldie.html"; //URL to redirect to.
+            }
+        </script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <h1><i class="material-icons">phonelink</i></h1>
+
+    <script src="common.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
